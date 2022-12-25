@@ -1,8 +1,8 @@
-# SCOTT PRO ⚡
+# SSH_NET ⚡
 
-# @SCOTTSSH
+# @SSH
 
-*PROJETO EM BETA🍷🗿
+*PROJECT EM BETA🍷🗿
 ```
 apt install wget -y; bash <(wget -qO- raw.githubusercontent.com/ScottBrabo/PR0/main/ssh-plus)
 
