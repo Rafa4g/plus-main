@@ -228,7 +228,9 @@ swap1=$(printf '%-5s' "$(free -h | grep -i swap | awk {'print $2'})")
 swap2=$(printf '%-5s' "$(free -h | grep -i swap | awk {'print $4'})")
 swap3=$(printf '%-5s' "$(free -h | grep -i swap | awk {'print $3'})")
 clear
-echo -e "SSH_NET PRO" | lolcat
+echo -e "\033[0;34m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
+echo -e "\E[41;1;37m               ⇱ SSH_NET PRO⇲                \E[0m"
+echo -e "\033[0;34m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
 echo -e "╔═══════════════════════════•⊱✦⊰•═══════════════════════════╗" | lolcat
 echo -e "\033[0;36m \E[5;34;47m                  ★  JESUS NEVER DIES...  ★                \E[0m \033[1;31m"
 echo -e "╚═══════════════════════════•⊱✦⊰•═══════════════════════════╝" | lolcat
@@ -351,7 +353,9 @@ swap1=$(printf '%-5s' "$(free -h | grep -i swap | awk {'print $2'})")
 swap2=$(printf '%-5s' "$(free -h | grep -i swap | awk {'print $4'})")
 swap3=$(printf '%-5s' "$(free -h | grep -i swap | awk {'print $3'})")
 clear
-echo -e "SSH_NET Plus" | lolcat
+echo -e "\033[0;34m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
+echo -e "\E[41;1;37m               ⇱ SSH_NET PRO⇲                \E[0m"
+echo -e "\033[0;34m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
 echo -e "╔═══════════════════════════•⊱✦⊰•═══════════════════════════╗" | lolcat
 echo -e "\033[0;36m \E[5;34;47m                  ★  JESUS NEVER DIES...  ★                \E[0m \033[1;31m"
 echo -e "╚═══════════════════════════•⊱✦⊰•═══════════════════════════╝" | lolcat
