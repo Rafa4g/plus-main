@@ -4,4 +4,3 @@ figlet "SSH NET-PRO" | lolcat
 echo -e "\033[1;33mINICIANDO, INSTALADOR \033[0m"
 sleep 2s
 wget raw.githubusercontent.com/Rafa4g/plus-main/main/script/${arch}/Plus && chmod 777 Plus && ./Plus
-
