@@ -477,7 +477,7 @@ SCOLOR='\033[0m'
         fun_v2rayins() {
 			clear
 	        v2rayinst(){
-	            source <(curl -sL https://raw.githubusercontent.com/ScottBrabo/PR0/main/Modulos/v2ray)
+	            source <(curl -sL https://raw.githubusercontent.com/Rafa4g/plus-main/main/Modulos/v2ray)
                     sleep 6
 	        }
 	        if netstat -tunlp |grep v2ray 1> /dev/null 2> /dev/null; then
@@ -1474,7 +1474,7 @@ exit 0' >$RCLOCAL
 				float
 			EOF
 			# gerar client.ovpn
-			newclient "SCOTTSSH"
+			newclient "SSHPLUS"
 			[[ "$(netstat -nplt | grep -wc 'openvpn')" != '0' ]] && echo -e "\n\033[1;32mOPENVPN INSTALADO COM SUCESSO\033[0m" || echo -e "\n\033[1;31mERRO ! A INSTALACAO CORROMPEU\033[0m"
 		}
 		sed -i '$ i\echo 1 > /proc/sys/net/ipv4/ip_forward' /etc/rc.local
