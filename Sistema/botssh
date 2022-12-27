@@ -1,6 +1,6 @@
 #!/bin/bash
 clear
-#--------@SSH NET PLUS-----------#
+#--------@SSH NET-PLUS-----------#
 source ShellBot.sh
 touch lista
 [[ -z $1 ]] && {
