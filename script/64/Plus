@@ -2,7 +2,7 @@
 clear#!/bin/bash
 #--------------------------
 # SCRIPT SSH-PLUS
-# CANAL TELEGRAM: @swittecnologia
+# CANAL TELEGRAM: @jhona70
 #--------------------------
 clear
 apt-get install lolcat -y &>/dev/null
@@ -55,7 +55,7 @@ system=$(cat /etc/issue.net)
 date=$(date '+%Y-%m-%d <> %H:%M:%S')
 echo ""
 echo -e "\033[1;37m $system                          $date"| lolcat
-figlet ' SWIT-T-PLUS' | boxes -d stone -p a0v0 | lolcat
+figlet ' TECNO-PLUS' | boxes -d stone -p a0v0 | lolcat
 echo "SE VOCÊ NÃO PUDER SE DESTACAR PELO TALENTO, VENÇA PELO ESFORÇO."| lolcat
 echo -e "\033[01;31m▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣\033[0m"| lolcat
 echo ""
